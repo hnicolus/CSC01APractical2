@@ -5,13 +5,14 @@ using namespace std;
 int main()
 {
     //Declare two inputs
-    double p;
-    double r;
+    double dblPrice;
+    double dblRate;
     //Get the two inputs
     
-    cin >> p;
-    cin >> r;
-    cout << p << endl;
-    cout << r << endl;
+    cin >> dblPrice;
+    cin >> dblRate;
+    //Output Price and rate
+    cout << dblPrice << endl;
+    cout << dblRate << endl;
     return 0;
 }

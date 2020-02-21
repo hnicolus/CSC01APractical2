@@ -3,17 +3,20 @@ using namespace std;
 
 int main()
 {
-    // declare p na r 
-    double p;
-    double r ;
-    double a;
+    // declare dblPrice ,dblAmount ,dblRate 
+    double dblPrice;
+    double dblRate ;
+    double dblAmount;
 
-    cin >> p;
-    cin >> r;
+    //Get inputs
+    cin >> dblPrice;
+    cin >> dblRate;
 
-    a = p*(1+r);
+    //Calculate 
+    dblAmount = dblPrice*(1+dblRate);
 
-    cout << a << endl;
-    cout << r << endl;
+    //Outputs price and Rate
+    cout << dblAmount << endl;
+    cout << dblRate << endl;
 return 0;
 }
